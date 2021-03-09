@@ -8,6 +8,8 @@ Sensor Fusion UKF Highway Project
 * Accuracy of tracking is known through the RMSE (Root Mean Squared Error).
 * RMSE calculated over each time step and for each seen car.
 
+# Project Workflow
+
 <img src="media/ukf_highway_tracked.gif" width="700" height="400" />
 
 In this project I implemented an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. 
