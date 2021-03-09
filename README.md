@@ -1,9 +1,16 @@
 # SFND_Unscented_Kalman_Filter
-Sensor Fusion UKF Highway Project Starter Code
+Sensor Fusion UKF Highway Project 
+
+# Project Objective
+
+* Multiple Object Tracking (model of vehicles on a highway) using both Lidar and Radar data fused with an Unscented Kalman Filter (UKF).
+* UKF tracks the vehicles using the CTRV (Constant Turn Rate and Velocity) motion model.
+* Accuracy of tracking is known through the RMSE (Root Mean Squared Error).
+* RMSE calculated over each time step and for each seen car.
 
 <img src="media/ukf_highway_tracked.gif" width="700" height="400" />
 
-In this project you will implement an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
+In this project I implemented an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. 
 
 The main program can be built and ran by doing the following from the project top directory.
 
